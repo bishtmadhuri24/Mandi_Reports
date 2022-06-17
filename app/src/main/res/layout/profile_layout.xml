@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/profilebackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person_profile"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZABIULLA"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banglore, Karnataka"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="speaks English"
+                android:textSize="10sp"
+                android:textStyle="italic"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:background="@drawable/button_background"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:layout_margin="5dp"
+                    android:textSize="8sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_person_add_24"
+                    android:layout_height="40dp"
+                    android:text="Connect"/>
+
+                <TextView
+                    android:textSize="8sp"
+                    android:layout_margin="5dp"
+                    android:padding="15dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:textAlignment="center"
+                    android:textColor="@color/teal_700"
+                    android:drawableLeft="@drawable/ic_baseline_call_24"
+                    android:background="@drawable/background_buttn"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:text="Contact"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+          android:layout_marginLeft="20dp"
+            android:background="@drawable/button_background"
+            android:layout_width="wrap_content"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/ic_baseline_share_24"
+            android:textSize="8dp"
+            android:textColor="@color/white"
+            android:layout_height="40dp"
+            android:text="share"/>
+
+    </LinearLayout>
+
+</LinearLayout>
