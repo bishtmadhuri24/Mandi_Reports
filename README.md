@@ -1,3 +1,4 @@
+![mmi](https://user-images.githubusercontent.com/82798816/174282383-412f0e55-ffb4-4c51-b032-db78eb3d94a7.png)
 # Mandi_Reports
 Mandi Product rates app 
 Mandi Product RAtes App which will show the details of mandi rates like potatos,onion,garlic etc.
